@@ -1,6 +1,9 @@
 "use strict";
+
 const express=require('express');
+
 let app=express();
+
 app.get('/', (req, res)=>{
   res.setHeader('Content-type', 'text/plain');
   res.send("hello world");
